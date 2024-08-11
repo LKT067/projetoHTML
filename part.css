@@ -1,0 +1,88 @@
+html, body {
+    margin: 0;
+}
+
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    background-color: rgba(252, 58, 148, 0.921);
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(252, 58, 148, 0.921);
+    padding: 10px 20px 0px;
+}
+
+.menu ul li {
+    margin: 0 10px;
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.menu ul li a:hover {
+    color: #ddd;
+}
+
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+}
+
+.header {
+    background-color: rgba(252, 58, 148, 0.921);
+    min-height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header img {
+    display: block;
+    margin: 0 auto;
+}
+
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.footer {
+    background-color: rgb(99, 56, 240);
+    color: white;
+     
+}
